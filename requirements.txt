@@ -1,10 +1,14 @@
 nbformat>=4.0.0
 pyyaml
-codecov
 notebook
 jupyter_client
 nbconvert
 sphinx-gallery
 setuptools
+pystrich
+pandas
+scikit-learn
+nbformat
+pipenv
 
 
