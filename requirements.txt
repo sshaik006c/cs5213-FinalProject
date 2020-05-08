@@ -1,7 +1,7 @@
 nbformat>=4.0.0
 pyyaml
 flake8
-pytest>=3.6
+pytest>=3.8
 python>=3.8
 pytest-cov
 codecov
