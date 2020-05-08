@@ -12,6 +12,7 @@ RUN pip install ipython
 RUN pip install import-ipynb
 RUN pip install ipynb
 RUN pip install pytest
+RUN pip install nbformat
 RUN if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
 CMD ["pytest","test_SEP.py"]
