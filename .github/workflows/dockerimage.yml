@@ -17,8 +17,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: |
-       docker build -t dockerpy .
-       docker run --name dockerpy_container dockerpy:latest
-       docker rm -f dockerpy_container
+       sudo docker build -t dockerpy .
+       sudo docker run --name dockerpy_container dockerpy:latest
+       sudo docker rm -f dockerpy_container
       
       #. --file Dockerfile --tag my-image-name:$(date +%s)
