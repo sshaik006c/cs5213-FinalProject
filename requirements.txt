@@ -1,6 +1,5 @@
 nbformat>=4.0.0
 pyyaml
-flake8
 codecov
 notebook
 jupyter_client
@@ -8,6 +7,4 @@ nbconvert
 sphinx-gallery
 setuptools
 
-# Python 2
-pathlib
 
