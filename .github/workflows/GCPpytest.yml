@@ -24,8 +24,7 @@ jobs:
         pip3 install pandas
         pip3 install scikit-learn
         if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
-        export PATH=$PATH:/home/shehnazsk031/.local/bin
     
     - name: Test with pytest
       run: |
-        pytest test_SEP.py
+        /home/shehnazsk031/.local/bin/pytest test_SEP.py
