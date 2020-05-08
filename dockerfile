@@ -1,7 +1,7 @@
 FROM python:3
 
 ADD test_SEP.py /
-ADD SEP.py /
+ADD SEP.ipynb /
 ADD Heart.csv /
 
 RUN pip install pystrich
