@@ -1,2 +1,15 @@
 nbformat>=4.0.0
 pyyaml
+flake8
+pytest>=3.6
+pytest-cov
+codecov
+notebook
+jupyter_client
+nbconvert
+sphinx-gallery
+setuptools
+
+# Python 2
+pathlib
+
