@@ -13,27 +13,18 @@ jobs:
   build:
 
     runs-on: self-hosted
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        python-version: [2.7.13, pypy2, pypy3]
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v1
-      with:
-        python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install flake8 pytest
-        pip install ipytest==0.3.0
-        pip install ipython
-        pip install import_ipynb
-        pip install pandas
-        pip install scikit-learn
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip3 install flake8 pytest
+        pip3 install ipytest==0.3.0
+        pip3 install ipython
+        pip3 install import_ipynb
+        pip3 install pandas
+        pip3 install scikit-learn
+        if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
