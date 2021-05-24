@@ -1,5 +1,5 @@
 # cs5213s20-project-g5
-<<<<<<< HEAD
+
 cs5213s20-project-g5 created by GitHub Classroom
 This repository is maintained by Team G5 of CS 5213, Spring 2020.
 The primary project hosted by this repository is cs5213s20-g5-project-Covid-19.
@@ -9,16 +9,7 @@ Apart from tracking the spread this project aims to perform data visualization o
 
 To achieve this we are assuming the below model to begin with. This is an evolving process and we would implement the best available and possible solutions to enhance the project.
 
-Consider a person 'x' in a population 'n'
 
-*If i is the infected person, then the probability of infection with coronavirus will be P
-
-*We can consider a 2D matrix or an array in which a random person is infected and the persons surrounding the infected person have the probability p% to get infected
-
-*We can continue to find the probabilities of infection by selecting random persons
-
-*If we consider each docker to be a different state, we can establish connection between the dockers and try to exchange messages which can be used to show the case of infection spread caused by travelling from place to place.
-=======
 
 Project Description
 
